@@ -48,8 +48,8 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
-	// You must also have the mcef-fabric-2.0.1-1.20.1.jar in your mods folder!
-	modImplementation 'com.cinemamod:mcef:2.0.1-1.20.1'
+	modCompileOnly "com.cinemamod:mcef:2.0.1-1.20.1"
+	modRuntimeOnly "com.cinemamod:mcef-fabric:2.0.1-1.20.1"
 }
 
 processResources {

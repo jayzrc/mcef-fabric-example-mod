@@ -12,5 +12,3 @@ This template is available under the CC0 license. Feel free to learn from it and
 See the BasicBrowser and ExampleModClient class for how to create a web browser.
 
 See the build.gradle file for how to add MCEF as a dependency to your project.
-
-You have to put `mcef-fabric-2.0.1-1.20.1.jar` in `run/mods` while running in a development environment!
