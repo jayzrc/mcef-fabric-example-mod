@@ -1,4 +1,4 @@
-package com.example;
+package my.niggas;
 
 import com.cinemamod.mcef.MCEF;
 import com.cinemamod.mcef.MCEFBrowser;
@@ -24,7 +24,7 @@ public class BasicBrowser extends Screen {
     protected void init() {
         super.init();
         if (browser == null) {
-            String url = "https://www.google.com";
+            String url = "https://google.com/";
             boolean transparent = true;
             browser = MCEF.createBrowser(url, transparent);
             resizeBrowser();

@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"id": "valley-additions",
+	"version": "26.3.0b11",
+	"name": "Valley Additions",
+	"description": "Valley Additions modpack, provides MCEF functioning etc.",
 	"authors": [
-		"Me!"
+		"jak.u.b__", "my niggas"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/jayzrc/valley",
+		"sources": "https://github.com/jayzrc"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/modid/icon_bg.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"my.niggas.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"my.niggas.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"valley-additions.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "valley-additions.client.mixins.json",
 			"environment": "client"
 		}
 	],
